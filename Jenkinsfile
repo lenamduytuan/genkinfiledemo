@@ -5,7 +5,7 @@ pipeline {
         stage('Hello') {
             steps {
                 echo 'Hello World'
-                git 'https://github.com/handuy/nodejs-todolist'
+                git 'https://github.com/lenamduytuan/genkinfiledemo.git'
             }
         }
     }
